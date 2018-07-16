@@ -1,2 +1,4 @@
 src/nmfa__preprocessed.cu
 cuda_nmfa.so
+solver
+.ipynb_checkpoints

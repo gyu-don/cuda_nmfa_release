@@ -45,3 +45,16 @@ float gpu_nmfa(int N, float* J,
   * `noise`: the amount of noise (sigma)
   * `recombination`: fraction of spin update used to calculate new spin (alpha)
   * `seed`: seed for the RNG
+
+Solver.cpp is wrapper and executable.
+
+Usage: ./solver input-json-file
+
+
+## Author and Copylight
+Authors of these files are Andrew D. King, William Bernoudy, James King, Andrew J. Berkley, Trevor Lanting.
+https://arxiv.org/abs/1806.08422v1
+These files are licensed in Attribution-NonCommercial-ShareAlike 4.0.
+
+Takumi Kato (@gyu-don) modified and add some files.
+See the commit log.

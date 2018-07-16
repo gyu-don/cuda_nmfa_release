@@ -199,3 +199,8 @@ float gpu_nmfa(const int N, float* J,
 
     return elapsedTime;
 }
+
+int get_N()
+{
+    return __N__;
+}
